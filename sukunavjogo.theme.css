@@ -1,0 +1,56 @@
+/**
+ * @name Sukuna v Jogo
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/LWe8DVI.gif');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: transparent;
+  --popout-image-blur: 0px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 10px;
+  --overlay-image-size: 200%;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.imgur.com/4lxt9V4.png');
+  --home-button-size: 165%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.42;
+  --middle-brightness: 0.42;
+  --right-brightness: 0.42;
+  --overlay-brightness: 0.42;
+  --gradient-primary: 255,62,0;
+  --gradient-secondary: 198,30,30;
+  --link-colour: #EA3A13;
+  --scrollbar-colour: rgb(198,30,30,1);
+  --gradient-direction: 338deg;
+  --tint-colour: 208,20,20;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 10px;
+  --window-roundness: 13px;
+  --update-notice-1: none;
+  --HSL-server-icon-size: 50px;
+  --HSL-server-spacing: 46px;
+}
+
+/* Any custom CSS below here */
+
+
